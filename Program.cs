@@ -58,6 +58,7 @@ namespace Determinator
                 }
             }
             Console.WriteLine("determinant = " + calculate_det(det, n));
+            Console.ReadKey();
         }
     }
 }
